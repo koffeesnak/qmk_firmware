@@ -1,0 +1,7 @@
+```
+$ vim ./keyboards/idobao/id75/keymaps/koffeesnak/keymap.c
+$ vim ./keyboards/keebio/iris/keymaps/koffeesnak/keymap.c
+$ make idobao/id75/v2:koffeesnak
+$ make keebio/iris/rev7:koffeesnak
+$ make keebio/foldkb/rev1:koffeesnak
+```

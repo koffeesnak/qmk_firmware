@@ -1,0 +1,5 @@
+brew install armmbed/formulae/arm-none-eabi-gcc
+git submodule update --recursive --remote
+make keebio/iris/rev8:koffeesnak
+
+qmk flash --keyboard keebio/iris/rev8 --keymap koffeesnak
