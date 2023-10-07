@@ -26,8 +26,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    _______, _______,  KC_6,  KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS,    KC_EQL,
    LT(2,KC_TAB), KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    _______, _______,  KC_Y,  KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC,    KC_RBRC,
    LT(1,KC_ESC), KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    _______, _______,  KC_H,  KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,    KC_ENT,
-        KC_LSFT, KC_BSLS, KC_Z,    KC_X,    KC_C,    KC_V,    _______, _______,  KC_B,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_UP,      KC_SLSH,
-        KC_LCTL, _______, KC_LALT, KC_LGUI, _______, KC_SPC,  _______, _______,KC_BSPC, _______, KC_DEL,  _______, KC_LEFT, KC_DOWN,    KC_RGHT
+        KC_LSFT, KC_BSLS, KC_Z,    KC_X,    KC_C,    KC_V,    _______, QK_BOOT,  KC_B,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_UP,      KC_SLSH,
+        KC_LCTL, _______, KC_LALT, KC_LGUI, _______, KC_SPC,  _______, RGB_TOG,KC_BSPC, _______, KC_DEL,  _______, KC_LEFT, KC_DOWN,    KC_RGHT
     ),
 
     [1] = LAYOUT_ortho_5x15(
@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_PGUP, _______, _______, _______, _______,
         _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_END,  _______, _______, _______,
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
-        _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, RESET,   _______, _______, _______, _______
+        _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,   _______, _______, _______, _______
     )
 };
 
